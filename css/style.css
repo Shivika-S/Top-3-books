@@ -1,0 +1,123 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-color: #F5F4F5;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+    background-image: url(https://images.unsplash.com/photo-1535905557558-afc4877a26fc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+    color: white;
+}
+
+.text-center {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    color: #131A19;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #9a8c98;
+    padding: 16px 36px;
+    border-radius: 50px;
+    color: white;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.Namesake {
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(230 230 230);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(230,230,230);
+    text-align: center;
+}
+
+.Namesake img {
+  height: 180px;
+
+}
+
+.Sapiens {
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(230 230 230);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(230,230,230);
+    text-align: center;
+}
+
+.Sapiens img {
+  height: 180px;
+}
+
+.Way {
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(230 230 230);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(230,230,230);
+    text-align: center;
+}
+
+.Way img {
+  height: 180px;
+}
+
+.footer {
+    text-align: center;
+    padding: 60px;
+    background-color: #131A19;
+    color: white;
+
+}
+.links {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.fab {
+  color: #9a8c98;
+  font-size: 30px;
+}
